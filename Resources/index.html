@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="/assets/css/base.css">
+        <link rel="stylesheet" href="/assets/css/window.css">
+        <link rel="stylesheet" href="/assets/css/header.css">
+        <link rel="stylesheet" href="/assets/css/layer.css">
+
+        <script data-main="/assets/js/main" src="/libs/require.js/require.js"></script>
+    </head>
+    <body>
+        <div class="window window-main">
+            <div class="header header-main window-header">
+                <h1>{{ui.headline.main}}</h1>
+                <nav class="header-topnav">
+                    <ul>
+                        <li>
+                            <a class="js-window-action" data-trigger="openLayer" data-layer="options">
+                                <span>{{ui.link.options}}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="js-window-action" data-trigger="quit">
+                                <span>{{ui.link.quit}}</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="window-mainframe">
+                <div class="window-area window-area-left">
+                    <nav class="main-nav-elements">
+                        <li>
+                            <span>{{elements.database}}</span>
+                        </li>
+                        <li>
+                            <span>{{elements.table}}</span>
+                        </li>
+                        <li>
+                            <span>{{elements.field}}</span>
+                        </li>
+                        <li>
+                            <span>{{elements.nestedfield}}</span>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

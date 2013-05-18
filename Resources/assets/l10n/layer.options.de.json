@@ -1,0 +1,13 @@
+{
+    "headline": "Optionen",
+    "options": {
+        "headline": "Allgemeine Optionen",
+        "label": {
+            "language": "Sprache"
+        },
+        "language": {
+            "german": "Deutsch",
+            "english": "Englisch"
+        }
+    }
+}

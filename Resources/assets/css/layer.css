@@ -1,0 +1,12 @@
+.layer {
+    width: 400px;
+    height: 300px;
+
+    margin-left: -150px;
+    margin-top: -200px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+}

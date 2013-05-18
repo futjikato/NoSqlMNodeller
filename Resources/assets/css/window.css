@@ -1,0 +1,15 @@
+.window {
+    height: inherit;
+
+    background: #fff;
+}
+
+.window-header {
+    height: 50px;
+
+    background: #D1D0D0;
+}
+
+.window-mainframe {
+
+}

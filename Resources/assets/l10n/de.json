@@ -1,0 +1,14 @@
+{
+    "ui": {
+        "headline": {
+            "main": "NoSqlModeller"
+        },
+        "link": {
+            "quit": "Beenden",
+            "options": "Optionen"
+        }
+    },
+    "elements": {
+        "database": "Datenbank"
+    }
+}
