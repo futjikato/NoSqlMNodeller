@@ -61,6 +61,9 @@ define(function () {
         this._elem.insertAdjacentHTML("AfterEnd", html);
         return this;
     };
+    BasicWindow.prototype.getDomnElement = function() {
+        return this._elem;
+    };
 
     return new BasicWindow();
 });
