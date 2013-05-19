@@ -7,7 +7,7 @@ requirejs.config({
     }
 });
 
-require(["ui/window", "libs/require.js/domReady.js"], function(win, domReady) {
+require(["ui/window", "visual/board", "libs/require.js/domReady.js"], function(win, Board, domReady) {
     // wait for dom ready
     domReady(function() {
 
@@ -29,5 +29,8 @@ require(["ui/window", "libs/require.js/domReady.js"], function(win, domReady) {
                 newLayer.open(layerName, "de");
             });
         });
+
+        // initialize drawing board
+        var mainBoard = new Board(win);
     });
 });

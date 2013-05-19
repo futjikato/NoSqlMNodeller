@@ -31,20 +31,22 @@
 
             <div class="window-mainframe">
                 <div class="window-area window-area-left">
+                    <h3>Modelling Elements</h3>
                     <nav class="main-nav-elements">
                         <li>
-                            <span>{{elements.database}}</span>
+                            <a class="js-board-add" data-type="db">
+                                <span>{{elements.database}}</span>
+                            </a>
                         </li>
                         <li>
-                            <span>{{elements.table}}</span>
-                        </li>
-                        <li>
-                            <span>{{elements.field}}</span>
-                        </li>
-                        <li>
-                            <span>{{elements.nestedfield}}</span>
+                            <a class="js-board-add" data-type="db">
+                                <span>{{elements.table}}</span>
+                            </a>
                         </li>
                     </nav>
+                </div>
+                <div class="window-area window-area-center">
+                    <canvas class="board"></canvas>
                 </div>
             </div>
         </div>
